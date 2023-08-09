@@ -22,7 +22,6 @@ or open `pdf2png.xcodeproj` with XCode.
 
     pdf2png [options] file
         --dpi dpi       Specifies the resolution at which to export the pages
-        --page page     Single page to export
         --transparent   Do not fill background white color, keep transparency from PDF.
-        --output path   Specify output file path. This implies --page 1 if not specified. ( Without this option, PDFNAME-p1.png (example) is created on same directory )
+        --output path   Specify output folder path.
         --help  Print this help message
